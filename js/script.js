@@ -11,7 +11,8 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Scopriamo Vue'
+      message: 'Scopriamo Vue',
+      imageUrl: '../img/n.y.jpg',
     }
   }
 }).mount('#app')
